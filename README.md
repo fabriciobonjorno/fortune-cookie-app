@@ -13,11 +13,11 @@ This is a **React Native** project that simulates the experience of opening a fo
 
 - **Closed Fortune Cookie:**
   
-  ![Closed Fortune Cookie](path/to/closed-fortune-cookie-image.png)
+  (![Screenshot from 2025-01-16 20-46-24](https://github.com/user-attachments/assets/047dfa6f-80f4-4a27-8050-3a9260461eb3)
 
 - **Opened Fortune Cookie:**
   
-  ![Opened Fortune Cookie](path/to/opened-fortune-cookie-image.png)
+  ![Screenshot from 2025-01-16 20-47-34](https://github.com/user-attachments/assets/616b13be-0017-4dc4-949e-a5cb1d57d8b2)
 
 ---
 
