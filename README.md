@@ -13,7 +13,7 @@ This is a **React Native** project that simulates the experience of opening a fo
 
 - **Closed Fortune Cookie:**
   
-  (![Screenshot from 2025-01-16 20-46-24](https://github.com/user-attachments/assets/047dfa6f-80f4-4a27-8050-3a9260461eb3)
+  ![Screenshot from 2025-01-16 20-46-24](https://github.com/user-attachments/assets/047dfa6f-80f4-4a27-8050-3a9260461eb3)
 
 - **Opened Fortune Cookie:**
   
@@ -33,8 +33,8 @@ Metro is the JavaScript bundler that comes with React Native. Run the following 
 # Using start
 npx react-native start
 
- # Run for Android 
- npx react-native run-android
+# Run for Android 
+npx react-native run-android
  
 # Run for IOS
- npx react-native run-ios
+npx react-native run-ios
