@@ -1,79 +1,40 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Fortune Cookie App
 
-# Getting Started
+This is a **React Native** project that simulates the experience of opening a fortune cookie. With a simple press of a button, users can receive a random fortune or piece of advice. The app presents a closed fortune cookie that opens upon tapping, revealing a new message every time.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+### Features:
+- Tap the button to open a virtual fortune cookie.
+- Displays a random fortune or saying each time the cookie is opened.
+- Includes visual representations of a closed and open fortune cookie.
 
-## Step 1: Start the Metro Server
+---
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Screenshots
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **Closed Fortune Cookie:**
+  
+  ![Closed Fortune Cookie](path/to/closed-fortune-cookie-image.png)
 
-```bash
-# using npm
-npm start
+- **Opened Fortune Cookie:**
+  
+  ![Opened Fortune Cookie](path/to/opened-fortune-cookie-image.png)
 
-# OR using Yarn
-yarn start
-```
+---
 
-## Step 2: Start your Application
+## Getting Started
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+> **Note:** Before starting, ensure you have completed the [React Native Environment Setup](https://reactnative.dev/docs/environment-setup) instructions up to the "Creating a new application" section.
 
-### For Android
+### Step 1: Start the Metro Server
 
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
+Metro is the JavaScript bundler that comes with React Native. Run the following command to start Metro from the root of your project:
 
 ```bash
-# using npm
-npm run ios
+# Using start
+npx react-native start
 
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+ # Run for Android 
+ npx react-native run-android
+ 
+# Run for IOS
+ npx react-native run-ios
